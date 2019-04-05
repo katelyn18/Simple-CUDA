@@ -1,16 +1,8 @@
 /*
-Katelyn Jaing
-Melissa Riddle
-Hector Medina
-CPSC 479-01
-Homework 5
-	Problem 1: initialize array of size 32 to 0
-	Problem 2: change array size to 1024
-	Problem 3: create another kernel that adds i to array[ i ]
-	Problem 4: change array size 8000 (check answer to Problem 3 still works)
-
-nvcc <filename>
-./a.out
+Problem 1: initialize array of size 32 to 0
+Problem 2: change array size to 1024
+Problem 3: create another kernel that adds i to array[ i ]
+Problem 4: change array size 8000 (check answer to Problem 3 still works)
 */
 #include <stdio.h>
 #include <cuda.h>
