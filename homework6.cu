@@ -1,21 +1,4 @@
-/*
-Katelyn Jaing
-Hector Medina
-CPSC 479-01
-Homework 6:
-	Problem 1: compute square of N dimensional matrix (N=32)
-				using a host function
-		nvcc <filename>
-		./a.out
-	Problem 2: Fortran 90 program
-		Declare 4x4 matrix A (all values set to 5)
-		Declare 4x4 matrix B (B(i,j) = i+j)
-		Compute C = A - B
-		Replace in C elements with value 8 to value 18
-	
-		gfortran <filename>
-		./a.out
-*/
+
 #include <stdio.h>
 #include <cuda.h>
 #define N 32
